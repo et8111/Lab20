@@ -1,0 +1,75 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://i.redd.it/5dgt0mp6ffn01.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-size: 30px;
+}
+
+#container{
+    width: 79%;
+    height: 50px;
+    margin: auto;
+    margin-top: 0px;
+    min-width: 700px;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+}
+#navBar ul{
+    padding-left: 1px;
+    list-style-type: none;
+    height: 50px;
+    border-bottom: 6px solid rgb(173, 33, 126);
+    border-right: 6px solid rgb(255, 145, 218);
+    
+}
+
+#navBar ul li {
+    float: left;
+}
+
+#navBar ul li a {
+    display: inline;
+    color: black;
+    padding: 16px 145px 15px 146px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navBar ul li a:hover {
+    background-color:black;
+    color:white;
+}
+
+h1{
+    margin-bottom: 0px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: OCR A Std;
+    opacity: .2;
+}
+
+#bodyDiv{
+    border-left: 6px solid rgb(255, 145, 218) ;
+    border-top:6px solid rgb(173, 33, 126);
+    min-height: 500px;
+    
+}
+#bodyDiv2{
+    min-height: 500px;
+    max-width: 50%;
+    background-color: rgba(199, 156, 195,.5);
+}
+
+#homeImg img{
+    height: 500px;
+    width: 500px;
+    margin-right: 50px;
+    float: right;
+}
+
+footer{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 20px;
+}
